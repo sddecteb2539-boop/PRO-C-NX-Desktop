@@ -1,0 +1,2 @@
+# AGENTS.md — PRO-C NX Desktop
+Read `knowledge/GOVERNANCE.md` and the existing build workflow before work. Follow the approved main baseline, learning-record workflow and release authorization boundary. Use authorized access to consult upstream source instructions for cross-repository changes; if unavailable, stop that affected work. Never copy private knowledge or source into this public repository, its PRs, logs or artifacts. Do not publish a release or merge without owner approval.
