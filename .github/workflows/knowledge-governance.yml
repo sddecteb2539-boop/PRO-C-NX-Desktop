@@ -12,6 +12,8 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: false
+      - name: Self-test learning gate
+        run: python3 scripts/test-knowledge.py
       - name: Check learning record
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
