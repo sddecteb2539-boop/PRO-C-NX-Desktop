@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "id": "YYYYMMDD-short-unique-slug",
+  "disposition": "candidate",
+  "scope": "repository|module|project|one-off (replace with actual scope)",
+  "summary": "Describe the correction and root cause; sanitize public records.",
+  "evidence": [
+    "Repository-local path or public-safe PR/commit reference"
+  ],
+  "tests": [
+    "Actual command/result or NOT RUN: reason"
+  ],
+  "rule_change": "Proposed exact rule change or NONE: reason",
+  "supersedes": [],
+  "approval": "PENDING: owner review; reference explicit approval when available"
+}
