@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "id": "20261125-governance-bootstrap",
+  "disposition": "promotion-proposed",
+  "scope": "repository governance only",
+  "summary": "Establish public-safe learning records and release-integration governance.",
+  "evidence": [
+    "README.md",
+    ".github/workflows/build.yml"
+  ],
+  "tests": [
+    "NOT RUN: full application/installer regression; governance PR CI must be reviewed before merge."
+  ],
+  "rule_change": "Introduce knowledge/GOVERNANCE.md as a proposed governance process; no engineering or release behavior change.",
+  "supersedes": [],
+  "approval": "PENDING: owner PR review; approval to prepare branch is not approval to merge."
+}
