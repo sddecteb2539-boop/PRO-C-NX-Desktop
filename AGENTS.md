@@ -1,0 +1,4 @@
+# AGENTS.md — PRO-C NX Desktop
+Read `knowledge/GOVERNANCE.md` and the existing build workflow before work. Follow the approved main baseline, learning-record workflow and release authorization boundary. Use authorized access to consult upstream source instructions for cross-repository changes; if unavailable, stop that affected work. Never copy private knowledge or source into this public repository, its PRs, logs or artifacts. Do not publish a release or merge without owner approval.
+
+Read `knowledge/MASTER_INDEX.md` before work to locate the current scoped rules; the index does not authorize candidate rules. For governance changes run `python3 scripts/test-knowledge.py` and the knowledge gate against the PR base. Claude and Copilot entry points must follow these instructions as well. If the approved index or required source is unavailable, stop the affected task and report the limitation.
